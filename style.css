@@ -1,4 +1,5 @@
     body {
+        margin: 0;
         font-family: 'Roboto', sans-serif;
     }
     
@@ -155,4 +156,37 @@
     
     .footer-section p {
         text-align: center;
+    }
+    
+    .half-width {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
+    
+    .experience-section {
+        overflow: hidden;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .box {
+        box-shadow: 5px 5px 30px gray;
+        height: 400px;
+        background-color: white;
+    }
+    
+    #full-stack {
+        border-left: 5px solid red;
+    }
+    
+    h2 {
+        color: salmon;
+        font-size: 18px;
+    }
+    
+    #baby-web {
+        border-left: 5px solid deepskyblue;
     }
