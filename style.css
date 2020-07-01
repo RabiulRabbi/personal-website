@@ -122,6 +122,13 @@
         border-radius: 5px;
     }
     
+    .message:hover {
+        width: 41%;
+        margin: auto;
+        background-color: #700f40;
+        border-radius: 5px;
+    }
+    
     .message a {
         text-decoration: none;
     }
